@@ -7,14 +7,7 @@ import {
   Countdown,
   Hero,
   Cta,
-  Speakers,
-  Ticket,
   Programing,
-  Location,
-  FAQ,
-  Sponsors,
-  Apiki,
-  Footer,
 } from '@components';
 import { fetchExample } from 'reducers/example/action-creators';
 import '../components/container/container.scss';
@@ -40,14 +33,7 @@ const Home = () => (
         <Countdown date={`${year}-12-06T00:00:00`} />
         <Hero />
         <Cta />
-        <Speakers />
-        <Ticket />
         <Programing />
-        <Location />
-        <FAQ />
-        <Sponsors />
-        <Apiki />
-        <Footer />
       </div>
     </StickyContainer>
   </Layout>
