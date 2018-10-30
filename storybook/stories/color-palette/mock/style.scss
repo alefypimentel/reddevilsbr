@@ -1,0 +1,14 @@
+@import '~nodeModules/sass-to-js/sass/_sass-to-js.scss';
+
+#root:after,
+#root:before {
+  display: none;
+}
+
+#root:after {
+  content: sassToJs( $colors );
+}
+
+#root:before {
+  content: sassToJs( $fonts );
+}
